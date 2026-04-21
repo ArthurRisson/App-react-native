@@ -112,17 +112,60 @@ export default function ProductList({ navigation }) {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: "#fff" },
+  container: { flex: 1, backgroundColor: "#f5f8fc" },
   centered: { flex: 1, justifyContent: "center", alignItems: "center" },
-  listContainer: { padding: 8 },
-  filterContainer: { padding: 10, borderBottomWidth: 1, borderColor: "#eee" },
-  filterButton: { paddingHorizontal: 15, paddingVertical: 8, backgroundColor: "#f0f0f0", borderRadius: 20, marginRight: 10 },
-  filterActive: { backgroundColor: "#1a1a1a" },
-  filterText: { color: "#333", fontSize: 12 },
-  filterTextActive: { color: "#fff", fontWeight: "bold" },
-  card: { flex: 1, margin: 5, backgroundColor: "#fff", borderRadius: 8, borderWidth: 1, borderColor: "#eee", overflow: "hidden" },
-  cardImage: { width: "100%", height: 120, backgroundColor: "#fff", marginTop: 10 },
-  cardTitle: { fontSize: 13, fontWeight: "500", color: "#1a1a1a", marginBottom: 5 },
-  cardPrice: { fontSize: 16, fontWeight: "bold", color: "#2E8B57" },
-  cardBody: { padding: 10 }
+  listContainer: { padding: 12 },
+  filterContainer: { 
+    padding: 12, 
+    borderBottomWidth: 1, 
+    borderColor: "#e0e8f0",
+    backgroundColor: "#fff"
+  },
+  filterButton: { 
+    paddingHorizontal: 16, 
+    paddingVertical: 10, 
+    backgroundColor: "#f0f4f9", 
+    borderRadius: 20, 
+    marginRight: 10,
+    borderWidth: 1.5,
+    borderColor: "#e0e8f0"
+  },
+  filterActive: { 
+    backgroundColor: "#2E5090",
+    borderColor: "#2E5090"
+  },
+  filterText: { color: "#666", fontSize: 13, fontWeight: "600" },
+  filterTextActive: { color: "#fff", fontWeight: "700" },
+  card: { 
+    flex: 1, 
+    margin: 6, 
+    backgroundColor: "#fff", 
+    borderRadius: 14, 
+    borderWidth: 1, 
+    borderColor: "#e8ecf2", 
+    overflow: "hidden",
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.08,
+    shadowRadius: 4,
+    elevation: 2
+  },
+  cardImage: { 
+    width: "100%", 
+    height: 140, 
+    backgroundColor: "#f5f8fc", 
+    marginTop: 12
+  },
+  cardTitle: { 
+    fontSize: 13, 
+    fontWeight: "600", 
+    color: "#2E5090", 
+    marginBottom: 8
+  },
+  cardPrice: { 
+    fontSize: 17, 
+    fontWeight: "700", 
+    color: "#7CB342"
+  },
+  cardBody: { padding: 12 }
 });

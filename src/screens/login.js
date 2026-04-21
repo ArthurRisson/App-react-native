@@ -26,10 +26,10 @@ export default function Login({ navigation }) {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Fake Store App</Text>
+      <Text style={styles.title}>Loja de roupas online</Text>
       <TextInput
         style={styles.input}
-        placeholder="Username (ex: mor_2314)"
+        placeholder="Username"
         value={username}
         onChangeText={setUsername}
         autoCapitalize="none"
@@ -49,9 +49,43 @@ export default function Login({ navigation }) {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, justifyContent: "center", padding: 20, backgroundColor: "#fff" },
-  title: { fontSize: 24, fontWeight: "bold", textAlign: "center", marginBottom: 30 },
-  input: { borderWidth: 1, borderColor: "#ccc", padding: 12, borderRadius: 8, marginBottom: 15 },
-  button: { backgroundColor: "#1a1a1a", padding: 15, borderRadius: 8, alignItems: "center" },
-  buttonText: { color: "#fff", fontWeight: "bold", fontSize: 16 }
+  container: { 
+    flex: 1, 
+    justifyContent: "center", 
+    padding: 20, 
+    backgroundColor: "#f5f8fc"
+  },
+  title: { 
+    fontSize: 32, 
+    fontWeight: "800", 
+    textAlign: "center", 
+    marginBottom: 40,
+    color: "#2E5090"
+  },
+  input: { 
+    borderWidth: 2, 
+    borderColor: "#e0e8f0", 
+    padding: 14, 
+    borderRadius: 12, 
+    marginBottom: 16,
+    fontSize: 15,
+    backgroundColor: "#fff",
+    color: "#333"
+  },
+  button: { 
+    backgroundColor: "#2E5090", 
+    padding: 16, 
+    borderRadius: 12, 
+    alignItems: "center",
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.15,
+    shadowRadius: 8,
+    elevation: 5
+  },
+  buttonText: { 
+    color: "#fff", 
+    fontWeight: "700", 
+    fontSize: 16 
+  }
 });

@@ -61,16 +61,64 @@ export default function ProductDetail({ navigation, route }) {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: "#fff" },
+  container: { flex: 1, backgroundColor: "#f5f8fc" },
   centered: { flex: 1, justifyContent: "center", alignItems: "center" },
-  image: { width: "100%", height: 300, backgroundColor: "#fff", marginVertical: 20 },
+  image: { 
+    width: "100%", 
+    height: 320, 
+    backgroundColor: "#fff", 
+    marginVertical: 16
+  },
   body: { padding: 20 },
-  tag: { alignSelf: "flex-start", backgroundColor: "#eee", paddingHorizontal: 10, paddingVertical: 5, borderRadius: 15, marginBottom: 10 },
-  tagText: { fontSize: 12, fontWeight: "bold", color: "#555" },
-  title: { fontSize: 22, fontWeight: "bold", color: "#1a1a1a", marginBottom: 10 },
-  price: { fontSize: 28, fontWeight: "bold", color: "#2E8B57", marginBottom: 15 },
-  ratingContainer: { marginBottom: 20 },
-  ratingText: { fontSize: 16, color: "#666" },
-  sectionTitle: { fontSize: 18, fontWeight: "bold", marginBottom: 10 },
-  description: { fontSize: 15, color: "#444", lineHeight: 24 }
+  tag: { 
+    alignSelf: "flex-start", 
+    backgroundColor: "#e8f3e8", 
+    paddingHorizontal: 12, 
+    paddingVertical: 6, 
+    borderRadius: 18, 
+    marginBottom: 14,
+    borderWidth: 1,
+    borderColor: "#7CB342"
+  },
+  tagText: { 
+    fontSize: 12, 
+    fontWeight: "700", 
+    color: "#558B2F",
+    textTransform: "capitalize"
+  },
+  title: { 
+    fontSize: 24, 
+    fontWeight: "800", 
+    color: "#2E5090", 
+    marginBottom: 12,
+    lineHeight: 30
+  },
+  price: { 
+    fontSize: 32, 
+    fontWeight: "800", 
+    color: "#7CB342", 
+    marginBottom: 18
+  },
+  ratingContainer: { 
+    marginBottom: 24,
+    backgroundColor: "#f0f4f9",
+    padding: 12,
+    borderRadius: 10
+  },
+  ratingText: { 
+    fontSize: 16, 
+    color: "#2E5090",
+    fontWeight: "600"
+  },
+  sectionTitle: { 
+    fontSize: 18, 
+    fontWeight: "700", 
+    marginBottom: 12,
+    color: "#2E5090"
+  },
+  description: { 
+    fontSize: 15, 
+    color: "#555", 
+    lineHeight: 26
+  }
 });
