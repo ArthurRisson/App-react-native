@@ -9,9 +9,9 @@ Este projeto é um aplicativo móvel desenvolvido em React Native com Expo para 
 * **RA**: 1138099
 ## 📝 Nota sobre o trabalho
 
-Professor, resolvi fazer o projeto sozinho, mesmo podendo ser em grupo. Escolhi fazer assim porque eu queria colocar a mão na massa em todas as partes do aplicativo (como o login, a navegação das telas e a comunicação com a API). 
+Professor, resolvi fazer o projeto sozinho, mesmo podendo ser em grupo. Escolhi fazer assim porque eu queria colocar a mão na massa em todas as partes do aplicativo (como o login, a navegação das telas e a comunicação com a API).Senti que precisava usar esse trabalho para revisar algumas coisas que acabei perdendo pelo caminho e ter certeza de que aprendi de verdade como tudo isso funciona. 
 
-Senti que precisava usar esse trabalho para revisar algumas coisas que acabei perdendo pelo caminho e ter certeza de que aprendi de verdade como tudo isso funciona.
+
 ---
 
 ## 🛠️ Tecnologias Utilizadas
